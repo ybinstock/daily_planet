@@ -27,7 +27,7 @@ You'll need the following `site` related routes:
 
 ## Structure
 
-All your article related views should be in an `views/articles` folder. Each article should utilize `ejs` to render the page. Your `site` related views `index`, `about`, and `contact` can also have a folder `views/site` you just need to `res.render(site/about)`. 
+All your article related views should be in an `views/articles` folder. Each article should utilize `ejs` to render the page. Your `site` related views `index`, `about`, and `contact` can also have a folder `views/site` you just need to `res.render('site/about')`. 
 
 
 ## Bonus
