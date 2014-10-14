@@ -14,7 +14,7 @@ You'll need to use an array of `articles` to create and display articles.
 
 You'll need the following `article` routes:
 
-* `get`  `/articles` to display a summary  each article.
+* `get` `/articles` to display a summary  each article.
 * `get` `/articles/new` to get a form to save a new article
 * `post` `/articles` to save an article
 * `get` `/articles/:id` to find an article by id in the array of `articles` and display it.
